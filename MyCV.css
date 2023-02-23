@@ -1,0 +1,73 @@
+/* 
+MyCV.css
+O Haran
+11.2.2023
+*/
+
+@media(min-width:100px){
+	.container1 {
+		display:flex;
+		margin: auto;
+		text-align: center;
+	}
+    .container2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+}
+.box1{
+	flex: 1;
+	padding: 1%;
+	margin: 10px;
+}
+.box2 {
+	flex: 4;
+	padding: 1%;
+	margin: 10px;
+}
+.box3 {
+	flex: .5;
+	padding: 1%;
+	margin: 10px;
+}
+
+
+div{
+		border: 1px solid black;
+		display: flex;
+		flex-direction: column;
+		flex: 1;	
+}
+
+h1{ 
+	color: olive;
+	font-family: calibri;
+	font-size: 350%;
+	text-shadow: 5px 5px 10px grey;
+}
+h2{
+	Color: grey;
+	font-family: calibri light;
+	text-shadow: 5px 5px 10px grey;
+}
+
+contact3{ 
+	font-family: calibri light;
+	font-size: 85%;
+}
+h3{
+	font-family: calibri light;
+	color: grey;
+	font-size: 100%;
+	text-decoration: underline;
+}
+
+body{
+	background: beige;
+}
+ul {
+	list-style-type: upper roman;
+}
+
